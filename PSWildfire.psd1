@@ -72,13 +72,13 @@
     FunctionsToExport    = 'Connect-Wildfire','ConvertTo-WildfireBody', 'Get-WildfireReport', 'Send-FileToWildFire', 'Test-WildfireConnection'
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-    CmdletsToExport      = '*'
+    CmdletsToExport      = @()
 
     # Variables to export from this module
     # VariablesToExport = @()
 
     # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-    AliasesToExport      = '*'
+    AliasesToExport      = @()
 
     # DSC resources to export from this module
     # DscResourcesToExport = @()
@@ -95,7 +95,7 @@
         PSData = @{
 
             # Tags applied to this module. These help with module discovery in online galleries.
-            Tags         = 'Palo Alto', 'Sandbox', 'Reporting', 'Report', 'Analysis'
+            Tags         = 'PaloAlto', 'Sandbox', 'Reporting', 'WildFire', 'Analysis', 'Security'
 
             # A URL to the license for this module.
             LicenseUri   = 'https://github.com/brice-automatizit/PSWildfire/blob/main/LICENSE'
@@ -113,7 +113,7 @@
             # ExternalModuleDependencies = ''
 
         } # End of PSData hashtable
-    
+
     } # End of PrivateData hashtable
 
     # HelpInfo URI of this module
